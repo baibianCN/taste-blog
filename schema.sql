@@ -1,0 +1,3 @@
+-- 数据库结构（只需执行一次）
+CREATE TABLE IF NOT EXISTS kv (k TEXT PRIMARY KEY, v TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS uploads (id TEXT PRIMARY KEY, mime TEXT, name TEXT, size INTEGER, data TEXT, created INTEGER);
