@@ -10,10 +10,17 @@
 
 ## 🖱️ 部署 = 4 次点击 + 填一次名字
 
+> **开始前需要两个免费账号**（没有就先注册，各 30 秒，都不用绑卡）：
+>
+> 1. **GitHub 账号** —— 部署按钮会请求 GitHub 授权，因为 Cloudflare 要把博客代码复制一份到你自己的 GitHub 仓库（这就是你没有手动 Fork 的原因）。还没有的话去 [github.com](https://github.com) 注册，只要一个用户名和邮箱
+> 2. **Cloudflare 账号** —— 博客跑在你自己的 Cloudflare 免费额度上。还没有的话去 [dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up) 注册，填邮箱即可
+>
+> 两个账号都齐了再点按钮，全程不会再卡住。
+
 ```text
 ① 点上面的 Deploy 按钮
-② 没有账号？按提示注册（Cloudflare 免费 / GitHub 免费，各 30 秒）
-③ 页面上每一屏都点「下一步 / Authorize / Deploy」（授权会自动完成，不用填任何东西）
+② 按 GitHub 提示授权（第一次会跳转 GitHub 点一次 Authorize）
+③ Cloudflare 页面上每一屏都点「下一步 / Deploy」（自动建库，不用填任何东西）
 ④ 构建跑完（1~2 分钟），打开它给你的网址
 ⑤ 网站自动跳到安装面板，填上博客名字和管理员密码 → 完事，你的博客上线了
 ```
